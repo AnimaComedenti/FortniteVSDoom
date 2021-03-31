@@ -12,18 +12,40 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCollider;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
+    public LayerMask trampolienMask;
 
     public float multiJumps = 2f;
 
+    public float dashSpeed = 50f;
+    public float dashTime = 2f;
+    public float dashColdown = 4f;
+    public float mutliDashes = 2f;
+
     Vector3 velocity;
     bool isGrounded;
+    bool onTrampolien;
+
+    bool isDashing;
+    float cdTime;
+    float dashes;
+    float saveDashTime;
+
+    private void Start()
+    {
+        cdTime = dashColdown;
+        dashes = mutliDashes;
+        saveDashTime = dashTime;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCollider.position, groundDistance, groundMask);
 
-        if (isGrounded && velocity.y < 0)
+        /*Grounded*/
+        isGrounded = Physics.CheckSphere(groundCollider.position, groundDistance, groundMask);
+        onTrampolien = Physics.CheckSphere(groundCollider.position, groundDistance, trampolienMask);
+
+        if ((isGrounded && velocity.y < 0) || (onTrampolien && velocity.y < 0))
         {
             velocity.y = -2f;
             multiJumps = 2f;
@@ -31,15 +53,59 @@ public class PlayerMovement : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-
         Vector3 move = transform.right * x + transform.forward * z;
 
-        if (Input.GetKeyDown(KeyCode.Space) && multiJumps > 0)
+        Debug.Log(isGrounded);
+        /*Jump*/
+        if (!onTrampolien)
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            multiJumps--;
+            if (Input.GetKeyDown(KeyCode.Space) && multiJumps > 0)
+            {
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                multiJumps--;
+            }
         }
 
+        /*Dash*/
+        if (mutliDashes <= 1f)
+        {
+            dashColdown -= Time.deltaTime;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && mutliDashes > 0)
+        {
+            mutliDashes--;
+            Vector3 dash = move * dashSpeed;
+            velocity.x = dash.x;
+            velocity.z = dash.z;
+            controller.Move(velocity * Time.deltaTime);
+            isDashing = true;
+        }
+
+        if (dashColdown <= 0f)
+        {
+            dashColdown = cdTime;
+            mutliDashes = dashes;
+        }
+
+        if (isDashing)
+        {
+            dashTime -= Time.deltaTime;
+        }
+        else
+        {
+            dashTime = saveDashTime;
+        }
+
+        if (dashTime <= 0)
+        {
+            velocity.x = 0f;
+            velocity.z = 0f;
+            dashTime = saveDashTime;
+            isDashing = false;
+        }
+
+        /*Jump and Move*/
         controller.Move(move * movementSpeed * Time.deltaTime);
 
         velocity.y += gravity * Time.deltaTime;
