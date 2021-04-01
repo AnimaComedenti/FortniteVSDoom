@@ -1,0 +1,1563 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro for Workstations; OS build 19041.867; Version 2004; 64bit' Language: 'de' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Nutzer/Documents/uniytproject/FortniteVSDoom/DoomVSFortnite
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51235
+Successfully changed project path to: C:/Users/Nutzer/Documents/uniytproject/FortniteVSDoom/DoomVSFortnite
+C:/Users/Nutzer/Documents/uniytproject/FortniteVSDoom/DoomVSFortnite
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nutzer/Documents/uniytproject/FortniteVSDoom/DoomVSFortnite/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002716 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.380000 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.948200 ms  DeleteObjects: 0.189400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(bc75a5bbcf085fa4f9b1e63c5bca1939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Color Palette.asset using Guid(bc75a5bbcf085fa4f9b1e63c5bca1939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79689eed6885839f86547d9ca800158c') in 0.034069 seconds
+  Import took 0.036765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(08640d03b0c16d64391f3205f79eaf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(08640d03b0c16d64391f3205f79eaf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcc87006c99789806d90f1992d76c58') in 0.008987 seconds
+  Import took 0.011543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.976651 seconds.
+  path: Assets/player/PlayerMovement.cs
+  artifactKey: Guid(3fea79da3a05b464e9c5959169297681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/PlayerMovement.cs using Guid(3fea79da3a05b464e9c5959169297681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b1586a167eb5c56942e71df1d1e9a5') in 0.011978 seconds
+  Import took 0.014637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029542 seconds.
+  path: Assets/player/PlayerMovement.cs
+  artifactKey: Guid(3fea79da3a05b464e9c5959169297681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/PlayerMovement.cs using Guid(3fea79da3a05b464e9c5959169297681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b1586a167eb5c56942e71df1d1e9a5') in 0.003510 seconds
+  Import took 0.006195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.392000 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.047200 ms MarkObjects: 2.065900 ms  DeleteObjects: 0.091900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.767413 seconds.
+  path: Assets/player/PlayerMovement.cs
+  artifactKey: Guid(3fea79da3a05b464e9c5959169297681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/PlayerMovement.cs using Guid(3fea79da3a05b464e9c5959169297681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f30409a384e805ba0ea5d68294b47d') in 0.006196 seconds
+  Import took 0.008821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/player/First Person Player.prefab
+  artifactKey: Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/First Person Player.prefab using Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78509027b3cc43bc08af2dd90bbed5e6') in 0.095471 seconds
+  Import took 0.098279 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.865100 ms (FindLiveObjects: 0.180800 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.546300 ms  DeleteObjects: 0.095900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1955.
+Total: 3.456800 ms (FindLiveObjects: 0.296800 ms CreateObjectMapping: 0.067800 ms MarkObjects: 2.999600 ms  DeleteObjects: 0.090800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.455800 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.043700 ms MarkObjects: 2.119400 ms  DeleteObjects: 0.090500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 722.353957 seconds.
+  path: Assets/player/First Person Player.prefab
+  artifactKey: Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/First Person Player.prefab using Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdb7100410fa929fb6dbddc9ac8a4f4') in 0.060908 seconds
+  Import took 0.063951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.477323 seconds.
+  path: Assets/player/First Person Player.prefab
+  artifactKey: Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/First Person Player.prefab using Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d6b6de9d93fef72dcecb142e1d89d4') in 0.015899 seconds
+  Import took 0.019152 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.365100 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.058700 ms  DeleteObjects: 0.086300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.888471 seconds.
+  path: Assets/player/First Person Player.prefab
+  artifactKey: Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/First Person Player.prefab using Guid(5ff3b52899992a148bdaa4644a1d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359593e9be1f6efdf7ab30514218037d') in 0.061646 seconds
+  Import took 0.064471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.228029 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081b13cb21460f3581dae67906c07d58') in 0.020524 seconds
+  Import took 0.023492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001935 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081b13cb21460f3581dae67906c07d58') in 0.006278 seconds
+  Import took 0.009204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.153803 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9eb576cdb087a837a3eac6bed35086') in 0.010663 seconds
+  Import took 0.013689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.213412 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fff146365d78e1a308a2d93ead31ab') in 0.010431 seconds
+  Import took 0.013737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.588373 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4773a929e51e9d05a923fe9058499d7a') in 0.010280 seconds
+  Import took 0.013101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.615165 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24564e63c96e586b98194ba03fac03eb') in 0.010934 seconds
+  Import took 0.014571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.619499 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26b0b58988aa9bdc0c27d465c650b58') in 0.007797 seconds
+  Import took 0.011367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.835932 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6354622a3c9762209ea30c39917fa776') in 0.011051 seconds
+  Import took 0.013961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.618799 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa6ea8daeb339b88dc63a889f4c7672') in 0.010281 seconds
+  Import took 0.013773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.224236 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52b02c9c75800cc54375e4cd1a310e4') in 0.010981 seconds
+  Import took 0.014134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.200312 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881de9a14da4ce02faa4b0d01cfdc3c8') in 0.010734 seconds
+  Import took 0.014202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.395718 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9aa1bf268d3a45e9aff2ad64e2fa22') in 0.011481 seconds
+  Import took 0.014506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790627 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bea5ad27d75438d603d4fe8d907e0ff') in 0.010780 seconds
+  Import took 0.013711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994669 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5834b43c2f15e8b065c0fbcbfe49c4') in 0.010191 seconds
+  Import took 0.013020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.448393 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ffd87c67ab86b147a8652cbb59dcd2') in 0.010298 seconds
+  Import took 0.013597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.237796 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815a424008af810ad1091e999002aae8') in 0.011788 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.230321 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f70ed630cf83e8c79894de2d8d72c4') in 0.011082 seconds
+  Import took 0.014280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.197544 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0b952e417d76358686ed0c18ecd027') in 0.011067 seconds
+  Import took 0.014321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792146 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421436568d839eed980f47e72a66e95a') in 0.011029 seconds
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.008025 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a16d4d5ceeba5ec4a6cb4229be8eaa') in 0.010766 seconds
+  Import took 0.014262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.229725 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742cd67dc4d3d984cb192cfd834ca384') in 0.011232 seconds
+  Import took 0.014488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.582571 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2de0f105a4de56565818d9d6b4da2d') in 0.010562 seconds
+  Import took 0.013462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421215 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8b72f28a7cbd0313a6f996cf013c87') in 0.011642 seconds
+  Import took 0.014801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.390680 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575ba40567191a2400dcbf9b5f3b7647') in 0.010159 seconds
+  Import took 0.013100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.276372 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42853c3b781d0c59fdcea1a9e501176f') in 0.010649 seconds
+  Import took 0.014348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.561030 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25a5b001be27be1d0f7d8786787abd5') in 0.010060 seconds
+  Import took 0.012849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.073083 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef6659171d7aa32e2adc0e263ef842b') in 0.011020 seconds
+  Import took 0.014771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.410239 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9900e2c85336bad4e53c2e6fc9cefdec') in 0.011535 seconds
+  Import took 0.014860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.606888 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd174f61f1d8e79c1fa967f19659ea58b') in 0.011636 seconds
+  Import took 0.014934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.406741 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c26a3ca1b7015ef4629c7c7a0b774e1') in 0.010995 seconds
+  Import took 0.014408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.647460 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce79311125d1254d3135ab7cfd0415a0') in 0.011114 seconds
+  Import took 0.014497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.823598 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd17254b532437d88bfbf381c3e88882') in 0.010383 seconds
+  Import took 0.013873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.611856 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d31257121a49d8667b0b4cc87ba011') in 0.010866 seconds
+  Import took 0.014191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.215905 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efad578185a0b120ae5f739ae3a4a36e') in 0.010688 seconds
+  Import took 0.014172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.006263 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45a78b70281f3541122745b2aa6cc5d') in 0.011033 seconds
+  Import took 0.014036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.802876 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedc3bafa5f0216b08108a8979dd6356') in 0.011210 seconds
+  Import took 0.014131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.001974 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b634ce805df904b27d1f6da059d447e2') in 0.010488 seconds
+  Import took 0.013287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.215769 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd5e6de2f9692f51766aa113ff1846') in 0.010416 seconds
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.197144 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17452adb07a384c5146d619b8d86fdc') in 0.011544 seconds
+  Import took 0.015478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393294 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd0f1d9d4160bf9a0f6cd5119f4cea1') in 0.010166 seconds
+  Import took 0.013055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.024979 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93362d62f901d1cfdf2acdc2cdfebd7') in 0.010896 seconds
+  Import took 0.014232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.860595 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680dcc459f42199e216d6d84c2699676') in 0.010705 seconds
+  Import took 0.013598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.406876 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be811e66f8a4af3fc363370b41eea5cc') in 0.010684 seconds
+  Import took 0.013739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.294333 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a2ab3617f4291d762937babd5d39fe') in 0.011341 seconds
+  Import took 0.014556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.226411 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24e395c9ed322f9b3c2673af52e67af') in 0.010936 seconds
+  Import took 0.013805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.057691 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ddfcb16be6963a96698629c866850a') in 0.014996 seconds
+  Import took 0.017831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.029817 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479d500900e8453feb13610d609cced5') in 0.011804 seconds
+  Import took 0.015062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.403282 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3d07617b301ad45b08aee78eb2ccad') in 0.011362 seconds
+  Import took 0.014568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.061757 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757f208dfd36672913903bc065d80cc6') in 0.010668 seconds
+  Import took 0.013598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589180 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba15d530691af210f2fc6dd699953079') in 0.010324 seconds
+  Import took 0.013101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.446335 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a95cf4d25389ec5acd8f4568ecad57f') in 0.011115 seconds
+  Import took 0.014272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.001424 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f515e44dcd3a4541f8f74b032914ab') in 0.010465 seconds
+  Import took 0.013543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.580499 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebaa12be91fdea686557e18b6d3c2df') in 0.010222 seconds
+  Import took 0.013239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.636579 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a763216707f67c6184f7290c85eced2f') in 0.007046 seconds
+  Import took 0.010279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.600902 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c0e675977258d2d003eca83d16a929') in 0.007308 seconds
+  Import took 0.010172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.094608 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d0d1ca45eb7589705fbb19e0cdbc82') in 0.010839 seconds
+  Import took 0.014170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.207317 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8fa850200c5ee75e980aa771db4cc1') in 0.010632 seconds
+  Import took 0.013562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.609128 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad012b547fe49d28181e70d98e78029') in 0.007499 seconds
+  Import took 0.010423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000034 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f5526738ceb356335f51a68cb1983f') in 0.006207 seconds
+  Import took 0.009088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602110 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd81ed35d652047820e76af00fbe63c') in 0.010354 seconds
+  Import took 0.013156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.627935 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf15109318bc4f8094f464ab001b4fa') in 0.010249 seconds
+  Import took 0.013318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.629576 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd529d3ddbff4e3246a5272d3bc3e0bb8') in 0.011225 seconds
+  Import took 0.014040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.397549 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ef2768331d3c5f1b72fb198a745ec8') in 0.010441 seconds
+  Import took 0.013300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596153 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5c34f7e21f9eba90927ff1e65d2483') in 0.010302 seconds
+  Import took 0.013489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792868 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e1c8f659ceec564d376569f9828a6') in 0.006927 seconds
+  Import took 0.009716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.595551 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b744218c42c2b2d205ba3c05a625d3e') in 0.009977 seconds
+  Import took 0.012945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790607 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520812fb19e2d044b59cd9b15931d35b') in 0.015100 seconds
+  Import took 0.018075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583232 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97155037f67b16864d4409d069035d1') in 0.009738 seconds
+  Import took 0.012755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589257 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d2e0f1817137b928e2189e85ef1a2') in 0.010074 seconds
+  Import took 0.012991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.263484 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62db77180f9a77b891407dbba8cf7539') in 0.007258 seconds
+  Import took 0.010385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.017555 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bea5b9bbfb3c73249452641de98c0b') in 0.006518 seconds
+  Import took 0.009353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.419986 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791dcc7afacc326fadd455dd32953da4') in 0.007271 seconds
+  Import took 0.010217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626914 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58810567db148223dcfaa70dc9a74847') in 0.007064 seconds
+  Import took 0.010357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.434297 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabcca42789af8c7f8c4c7983a40abbd') in 0.008467 seconds
+  Import took 0.012453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.017720 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680affed5f2bbfcc32db5b30315b0de2') in 0.007097 seconds
+  Import took 0.010624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.807137 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3124df78aa6d209b18945379e05c59') in 0.006297 seconds
+  Import took 0.009062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.021015 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08d293403efb535d1d3916abd21e38f') in 0.007053 seconds
+  Import took 0.010458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804235 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4677ef8fb67f3b8ff8a2d08310aea70e') in 0.006309 seconds
+  Import took 0.009226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.843946 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ce0f07ecade067c6838545606f95ca') in 0.006662 seconds
+  Import took 0.009795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.240636 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b8be9d48b7fa98c15b7dd54f143072') in 0.007205 seconds
+  Import took 0.010082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.235111 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71230c3f90b4d8c1ef2f5f7c9ff2be84') in 0.006665 seconds
+  Import took 0.009541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.020875 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202e8895232538b67bd2e70954ea6819') in 0.007270 seconds
+  Import took 0.010594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.002191 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd13febb43c893ffe5741e0e4895160') in 0.006468 seconds
+  Import took 0.009279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.258629 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc5cdeedc0409270b4e264f80b3bca9') in 0.007984 seconds
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.217423 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d9028c4b59d87c9670f43079a62438') in 0.007021 seconds
+  Import took 0.009988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.258867 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5571035a980186cf41bd5a3655b6c40') in 0.006670 seconds
+  Import took 0.009497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.208990 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf380e35061428edac56eec01b49472') in 0.006469 seconds
+  Import took 0.009517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.209333 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0549ac7a75278a6d36a420d60ae10cdf') in 0.007070 seconds
+  Import took 0.010191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.507118 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da5e29deed957741ec31c88d351c000') in 0.007040 seconds
+  Import took 0.009920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.219884 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50489c77429c239e290ca91dc09fbd92') in 0.007000 seconds
+  Import took 0.009867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.414458 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b54bc25d818a6d095e9e6fe62a00684') in 0.006433 seconds
+  Import took 0.009245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387548 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456d0dbde4625954a2c77c3e3d7a62c7') in 0.006680 seconds
+  Import took 0.009531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.014536 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8965d939ad68daf60a1da03ccbb0650') in 0.006506 seconds
+  Import took 0.009478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.599617 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4e81c587ab82823696a3ce17c1630c') in 0.006638 seconds
+  Import took 0.009571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.214417 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02096cf2b4d8635a54fdce8495d7356') in 0.006562 seconds
+  Import took 0.009604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.224590 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0d9965825021103de54747f582529c') in 0.006735 seconds
+  Import took 0.009618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.042571 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b777976ef661f32221b494a3827b52b1') in 0.006830 seconds
+  Import took 0.009768 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 2.512900 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.041400 ms MarkObjects: 2.176200 ms  DeleteObjects: 0.093300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 490.618387 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff21125e6616b53a34803acf548b9fc6') in 0.038629 seconds
+  Import took 0.041610 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 2.326100 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.038800 ms MarkObjects: 2.018400 ms  DeleteObjects: 0.088600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 3.420600 ms (FindLiveObjects: 0.194100 ms CreateObjectMapping: 0.040200 ms MarkObjects: 3.065100 ms  DeleteObjects: 0.119300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.669959 seconds.
+  path: Assets/player/trampolin 1.prefab
+  artifactKey: Guid(74ca13f54852b2f448000c3105638aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin 1.prefab using Guid(74ca13f54852b2f448000c3105638aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feb8a424022359b1b407d53cb422a34') in 0.040051 seconds
+  Import took 0.043189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.688427 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767a1e3997bf620558bf3f43181b0df5') in 0.010794 seconds
+  Import took 0.013669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003125 seconds.
+  path: Assets/player/trampolin.prefab
+  artifactKey: Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/trampolin.prefab using Guid(790978344462e22458c2286db5401775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767a1e3997bf620558bf3f43181b0df5') in 0.006314 seconds
+  Import took 0.009148 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 3.647200 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.079300 ms MarkObjects: 3.120800 ms  DeleteObjects: 0.154600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1971.
+Total: 3.598400 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.051600 ms MarkObjects: 3.204000 ms  DeleteObjects: 0.121700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 3.181800 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.725000 ms  DeleteObjects: 0.094700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 2.879200 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.481100 ms  DeleteObjects: 0.116800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 2.604800 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.056200 ms MarkObjects: 2.170300 ms  DeleteObjects: 0.095500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1979.
+Total: 3.616300 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.962400 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 3.590800 ms (FindLiveObjects: 0.400500 ms CreateObjectMapping: 0.083700 ms MarkObjects: 3.013300 ms  DeleteObjects: 0.091600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 2.347400 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.012000 ms  DeleteObjects: 0.085100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 2.347100 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.041700 ms MarkObjects: 2.005300 ms  DeleteObjects: 0.091700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 3.048300 ms (FindLiveObjects: 0.307900 ms CreateObjectMapping: 0.072900 ms MarkObjects: 2.556400 ms  DeleteObjects: 0.108700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 2.379400 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.038600 ms MarkObjects: 2.051100 ms  DeleteObjects: 0.087900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

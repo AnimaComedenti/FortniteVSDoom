@@ -12,7 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCollider;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-    public LayerMask trampolienMask;
+    public LayerMask boosterMask;
+    public LayerMask trampolinMask;
 
     public float multiJumps = 2f;
 
@@ -21,9 +22,10 @@ public class PlayerMovement : MonoBehaviour
     public float dashColdown = 4f;
     public float mutliDashes = 2f;
 
-    Vector3 velocity;
+    public Vector3 velocity;
     bool isGrounded;
-    bool onTrampolien;
+    bool onBoost;
+    bool onTrampolin;
 
     bool isDashing;
     float cdTime;
@@ -42,12 +44,18 @@ public class PlayerMovement : MonoBehaviour
     {
 
         /*Grounded*/
-        isGrounded = Physics.CheckSphere(groundCollider.position, groundDistance, groundMask);
-        onTrampolien = Physics.CheckSphere(groundCollider.position, groundDistance, trampolienMask);
+        isGrounded = checkGroundend(groundMask);
+        onBoost = checkGroundend(boosterMask);
+        onTrampolin = checkGroundend(trampolinMask);
 
-        if ((isGrounded && velocity.y < 0) || (onTrampolien && velocity.y < 0))
+        if ((isGrounded && velocity.y < 0) || (onBoost && velocity.y < 0))
         {
             velocity.y = -2f;
+            multiJumps = 2f;
+        }
+
+        if (onTrampolin)
+        {
             multiJumps = 2f;
         }
 
@@ -55,9 +63,8 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         Vector3 move = transform.right * x + transform.forward * z;
 
-        Debug.Log(isGrounded);
         /*Jump*/
-        if (!onTrampolien)
+        if (!onBoost && !onTrampolin)
         {
             if (Input.GetKeyDown(KeyCode.Space) && multiJumps > 0)
             {
@@ -78,7 +85,7 @@ public class PlayerMovement : MonoBehaviour
             Vector3 dash = move * dashSpeed;
             velocity.x = dash.x;
             velocity.z = dash.z;
-            controller.Move(velocity * Time.deltaTime);
+            moveCharacter(velocity);
             isDashing = true;
         }
 
@@ -106,9 +113,19 @@ public class PlayerMovement : MonoBehaviour
         }
 
         /*Jump and Move*/
-        controller.Move(move * movementSpeed * Time.deltaTime);
-
+        moveCharacter(move * movementSpeed);
         velocity.y += gravity * Time.deltaTime;
+        moveCharacter(velocity);
+    }
+
+    public void moveCharacter(Vector3 velocity)
+    {
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    private bool checkGroundend(LayerMask ground)
+    {
+        bool onGround = Physics.CheckSphere(groundCollider.position, groundDistance, ground);
+        return onGround; 
     }
 }

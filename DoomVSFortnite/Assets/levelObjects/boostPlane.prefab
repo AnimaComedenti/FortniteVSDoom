@@ -5459,14 +5459,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca6536c8d2457343a54b456544eadf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 2281653746733897977, guid: 5ff3b52899992a148bdaa4644a1d8994, type: 3}
+  player: {fileID: 0}
   playerMask:
     serializedVersion: 2
     m_Bits: 128
   playerFinder: {fileID: 1824060087370642016}
   playerDistance: 5
   gravity: -9.81
-  jumpHeight: 10
+  jumpHeight: 60
 --- !u!64 &1163635751276023824
 MeshCollider:
   m_ObjectHideFlags: 0

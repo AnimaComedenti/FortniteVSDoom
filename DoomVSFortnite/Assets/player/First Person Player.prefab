@@ -90,12 +90,12 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2281653744856984724}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 0
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 2.3199594
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000049670536, y: -0.055675905, z: -0.00000009934107}
 --- !u!1 &2281653745565191907
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,10 +203,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2281653746654767440}
-  - component: {fileID: 2281653746654767441}
+  - component: {fileID: 252617459}
   m_Layer: 7
   m_Name: groundCheck
-  m_TagString: Untagged
+  m_TagString: playerfeet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,22 +225,19 @@ Transform:
   m_Father: {fileID: 2281653746733897982}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2281653746654767441
-Rigidbody:
+--- !u!65 &252617459
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2281653746654767443}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Size: {x: 1, y: 0.41868734, z: 1}
+  m_Center: {x: 0, y: 0.1762135, z: 0}
 --- !u!1 &2281653746733897976
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +249,7 @@ GameObject:
   - component: {fileID: 2281653746733897982}
   - component: {fileID: 2281653746733897977}
   - component: {fileID: 2281653746733897983}
+  - component: {fileID: 1934999360}
   m_Layer: 7
   m_Name: First Person Player
   m_TagString: Untagged
@@ -290,7 +288,7 @@ CharacterController:
   m_Height: 3.8
   m_Radius: 0.6
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.35
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -311,15 +309,35 @@ MonoBehaviour:
   gravity: -17.62
   jumpHeight: 6
   groundCollider: {fileID: 2281653746654767440}
-  groundDistance: 0.4
+  groundDistance: 0.2
   groundMask:
     serializedVersion: 2
     m_Bits: 8
-  trampolienMask:
+  boosterMask:
     serializedVersion: 2
     m_Bits: 64
+  trampolinMask:
+    serializedVersion: 2
+    m_Bits: 256
   multiJumps: 2
-  dashSpeed: 50
-  dashTime: 2
+  dashSpeed: 25
+  dashTime: 1
   dashColdown: 4
   mutliDashes: 2
+  velocity: {x: 0, y: 0, z: 0}
+--- !u!54 &1934999360
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2281653746733897976}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
