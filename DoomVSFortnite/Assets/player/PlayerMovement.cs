@@ -4,10 +4,26 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float movementSpeed = 12f;
     public CharacterController controller;
+    public Vector3 velocity;
+    public Vector3 hookVelocity;
+    public Transform playerBody;
+    public Camera cam;
+
+    /*Physics*/
     public float gravity = -9.81f;
+
+    /*Jumping*/
     public float jumpHeight = 6f;
+    public float multiJumps = 2f;
+
+    /*Movement*/
+    public float movementSpeed = 12f;
+
+    /*Grounded*/
+    bool isGrounded;
+    bool onBoost;
+    bool onTrampolin;
 
     public Transform groundCollider;
     public float groundDistance = 0.4f;
@@ -15,34 +31,42 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask boosterMask;
     public LayerMask trampolinMask;
 
-    public float multiJumps = 2f;
+    /*Dashing*/
+    bool isDashing;
+    float saveCdTime;
+    float saveMaxDashes;
+    float saveDashTime;
+    float saveGravity;
 
     public float dashSpeed = 50f;
     public float dashTime = 2f;
     public float dashColdown = 4f;
     public float mutliDashes = 2f;
 
-    public Vector3 velocity;
-    bool isGrounded;
-    bool onBoost;
-    bool onTrampolin;
+    /*Climbing*/
+    public Transform headCollider;
+    public LayerMask wallLayer;
+    public float climbDetection = 1f;
 
-    bool isDashing;
-    float cdTime;
-    float dashes;
-    float saveDashTime;
+    /*Hook*/
+    Vector3 objectPosition;
+    public float maxHookDistance;
+    public float dragSpeeed;
+    bool isCurrentlyHooking = false;
+
 
     private void Start()
     {
-        cdTime = dashColdown;
-        dashes = mutliDashes;
+        saveCdTime = dashColdown;
+        saveMaxDashes = mutliDashes;
         saveDashTime = dashTime;
+        saveGravity = gravity;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+     
         /*Grounded*/
         isGrounded = checkGroundend(groundMask);
         onBoost = checkGroundend(boosterMask);
@@ -58,10 +82,14 @@ public class PlayerMovement : MonoBehaviour
         {
             multiJumps = 2f;
         }
+        Debug.DrawRay(cam.transform.position, cam.transform.forward, Color.green);
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-        Vector3 move = transform.right * x + transform.forward * z;
+        Vector3 move;
+
+        /*Climbing*/
+        bool isClimbing = detectClimbing();
 
         /*Jump*/
         if (!onBoost && !onTrampolin)
@@ -73,7 +101,82 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        /*Dash*/
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            graplingHook();
+        }
+
+        if (isCurrentlyHooking)
+        {
+            Vector3 hookDirection = objectPosition - transform.position;
+            hookVelocity = hookDirection * (dragSpeeed * Time.deltaTime);
+
+            if (Input.GetKeyDown(KeyCode.Q) || getBetrag(hookVelocity.x,hookVelocity.y,hookVelocity.z) <= 8 )
+            {
+                isCurrentlyHooking = false;
+                hookVelocity = Vector3.zero;
+                gravity = saveGravity;
+            }
+        }
+
+        if (isClimbing)
+        {
+            move = transform.up * z + transform.right * x;
+            velocity.y = velocity.y < 0 ? 0 : velocity.y;
+        }
+        else
+        {
+            move = transform.right * x + transform.forward * z;
+            velocity.y += gravity * Time.deltaTime;
+        }
+
+
+        /*Dashing*/
+        dash(move);
+
+        /*Move*/
+        moveCharacter(hookVelocity);
+        moveCharacter(velocity);
+        moveCharacter(move * movementSpeed);
+    }
+
+    private float getBetrag(float x, float y, float z)
+    {
+        return Mathf.Sqrt(Mathf.Pow(x, 2) + Mathf.Pow(y, 2) + Mathf.Pow(z, 2));
+    }
+
+    public void moveCharacter(Vector3 velocity)
+    {
+        controller.Move(velocity * Time.deltaTime);
+    }
+
+    private bool checkGroundend(LayerMask ground)
+    {
+        bool onGround = Physics.CheckSphere(groundCollider.position, groundDistance, ground);
+        return onGround; 
+    }
+
+    private bool detectClimbing()
+    {
+        bool onTop = Physics.CheckSphere(headCollider.position, climbDetection, wallLayer);
+        bool onBottom = Physics.CheckSphere(groundCollider.position, climbDetection, wallLayer);
+
+        if (onBottom)
+        {
+            velocity.y = -2f;
+            multiJumps = 1;
+        }
+
+        if (onTop || onBottom)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    private void dash(Vector3 move)
+    {
         if (mutliDashes <= 1f)
         {
             dashColdown -= Time.deltaTime;
@@ -91,8 +194,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (dashColdown <= 0f)
         {
-            dashColdown = cdTime;
-            mutliDashes = dashes;
+            dashColdown = saveCdTime;
+            mutliDashes = saveMaxDashes;
         }
 
         if (isDashing)
@@ -111,21 +214,26 @@ public class PlayerMovement : MonoBehaviour
             dashTime = saveDashTime;
             isDashing = false;
         }
-
-        /*Jump and Move*/
-        moveCharacter(move * movementSpeed);
-        velocity.y += gravity * Time.deltaTime;
-        moveCharacter(velocity);
     }
 
-    public void moveCharacter(Vector3 velocity)
+    private void graplingHook()
     {
-        controller.Move(velocity * Time.deltaTime);
+        if (!isCurrentlyHooking)
+        {
+            Ray graplingHookRay = new Ray(cam.transform.position, cam.transform.forward);
+            RaycastHit hit;
+            if (Physics.Raycast(graplingHookRay, out hit, maxHookDistance))
+            {
+                isCurrentlyHooking = true;
+                objectPosition = hit.point;
+            }
+        }
+            
     }
-
-    private bool checkGroundend(LayerMask ground)
+    void OnDrawGizmosSelected()
     {
-        bool onGround = Physics.CheckSphere(groundCollider.position, groundDistance, ground);
-        return onGround; 
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(headCollider.position, climbDetection);
+        Gizmos.DrawSphere(groundCollider.position, climbDetection);
     }
 }
