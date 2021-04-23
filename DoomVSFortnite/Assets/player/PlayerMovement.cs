@@ -6,9 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Vector3 velocity;
-    public Vector3 hookVelocity;
     public Transform playerBody;
-    public Camera cam;
 
     /*Physics*/
     public float gravity = -9.81f;
@@ -36,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
     float saveCdTime;
     float saveMaxDashes;
     float saveDashTime;
-    float saveGravity;
 
     public float dashSpeed = 50f;
     public float dashTime = 2f;
@@ -48,19 +45,12 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask wallLayer;
     public float climbDetection = 1f;
 
-    /*Hook*/
-    Vector3 objectPosition;
-    public float maxHookDistance;
-    public float dragSpeeed;
-    bool isCurrentlyHooking = false;
-
 
     private void Start()
     {
         saveCdTime = dashColdown;
         saveMaxDashes = mutliDashes;
         saveDashTime = dashTime;
-        saveGravity = gravity;
     }
 
     // Update is called once per frame
@@ -82,7 +72,6 @@ public class PlayerMovement : MonoBehaviour
         {
             multiJumps = 2f;
         }
-        Debug.DrawRay(cam.transform.position, cam.transform.forward, Color.green);
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
@@ -98,24 +87,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
                 multiJumps--;
-            }
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            graplingHook();
-        }
-
-        if (isCurrentlyHooking)
-        {
-            Vector3 hookDirection = objectPosition - transform.position;
-            hookVelocity = hookDirection * (dragSpeeed * Time.deltaTime);
-
-            if (Input.GetKeyDown(KeyCode.Q) || getBetrag(hookVelocity.x,hookVelocity.y,hookVelocity.z) <= 8 )
-            {
-                isCurrentlyHooking = false;
-                hookVelocity = Vector3.zero;
-                gravity = saveGravity;
             }
         }
 
@@ -135,14 +106,8 @@ public class PlayerMovement : MonoBehaviour
         dash(move);
 
         /*Move*/
-        moveCharacter(hookVelocity);
         moveCharacter(velocity);
         moveCharacter(move * movementSpeed);
-    }
-
-    private float getBetrag(float x, float y, float z)
-    {
-        return Mathf.Sqrt(Mathf.Pow(x, 2) + Mathf.Pow(y, 2) + Mathf.Pow(z, 2));
     }
 
     public void moveCharacter(Vector3 velocity)
@@ -216,20 +181,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void graplingHook()
-    {
-        if (!isCurrentlyHooking)
-        {
-            Ray graplingHookRay = new Ray(cam.transform.position, cam.transform.forward);
-            RaycastHit hit;
-            if (Physics.Raycast(graplingHookRay, out hit, maxHookDistance))
-            {
-                isCurrentlyHooking = true;
-                objectPosition = hit.point;
-            }
-        }
-            
-    }
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
