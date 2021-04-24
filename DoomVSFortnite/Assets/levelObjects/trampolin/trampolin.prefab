@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536adfcf4ea189744b24c9f96d92a542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 6087021506871465727, guid: 5ff3b52899992a148bdaa4644a1d8994, type: 3}
   bounciness: 0.75
   gravity: -9.81
   jumpHeight: 7

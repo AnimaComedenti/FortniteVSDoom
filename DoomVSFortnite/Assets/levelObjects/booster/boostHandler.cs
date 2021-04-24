@@ -4,32 +4,37 @@ using UnityEngine;
 
 public class boostHandler : MonoBehaviour
 {
-    public PlayerMovement player;
-    public LayerMask playerMask;
-    public Transform playerFinder;
-
-    public float playerDistance = 3f;
+    private PlayerMovement player;
     public float gravity = -9.81f;
-    public float jumpHeight = 10f;
-
-
-    bool hasPlayerOnIt;
+    public float jumpHeight = 5000f;
+    bool isOnBooster;
     Vector3 velocity;
 
     // Update is called once per frame
     void Update()
     {
-        hasPlayerOnIt = Physics.CheckSphere(playerFinder.position, playerDistance, playerMask);
-        if(hasPlayerOnIt)
+        if(isOnBooster)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 velocity = player.controller.velocity;
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
                 player.moveCharacter(velocity);
-                player.velocity = velocity;            
+                player.velocity.y = velocity.y;      
             }
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        isOnBooster = true;
+        if (other.tag == "playerfeet")
+        {
+            player = other.GetComponentInParent<PlayerMovement>();
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        isOnBooster = false;
     }
 
 }
