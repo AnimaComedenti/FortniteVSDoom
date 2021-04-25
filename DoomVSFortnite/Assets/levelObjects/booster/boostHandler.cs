@@ -15,25 +15,30 @@ public class boostHandler : MonoBehaviour
     {
         if(isOnBooster)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (player.photonView.IsMine)
             {
-                velocity = player.controller.velocity;
-                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-                player.moveCharacter(velocity);
-                player.velocity.y = velocity.y;      
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    velocity = player.controller.velocity;
+                    velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                    player.moveCharacter(velocity);
+                    player.velocity.y = velocity.y;
+                }
             }
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        isOnBooster = true;
+        Debug.Log("yeah");
         if (other.tag == "playerfeet")
         {
-            player = other.GetComponentInParent<PlayerMovement>();
+            isOnBooster = true;
+            player = other.GetComponentInParent<PlayerMovement>(); 
         }
     }
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("no");
         isOnBooster = false;
     }
 
