@@ -20,6 +20,7 @@ public class gunScript : MonoBehaviourPun
     public float shootdelay = 2f;
     float saveDelay;
     bool isshooting;
+    public AudioClip shoot;
 
     private void LateUpdate()
     {
@@ -103,9 +104,22 @@ public class gunScript : MonoBehaviourPun
 
     }
 
+    [PunRPC]
+    void playBulletSound()
+    {
+        AudioSource audioRPC = gameObject.GetComponent<AudioSource>();
+        audioRPC.clip = shoot;
+        audioRPC.spatialBlend = 1;
+        audioRPC.minDistance = 25;
+        audioRPC.maxDistance = 100;
+        audioRPC.Play();
+    }
+
     private void shootBullet()
     {
-        GameObject bullet = PhotonNetwork.Instantiate(bulletPrefab.name, gunPosition.position, Quaternion.identity,0);
+        GameObject bullet = PhotonNetwork.Instantiate(bulletPrefab.name, cam.transform.position, Quaternion.identity,0);
+        photonView.RPC("playBulletSound", RpcTarget.All);
         bullet.GetComponent<Rigidbody>().AddForce(cam.transform.forward * shootForce, ForceMode.Impulse);
     }
+
 }

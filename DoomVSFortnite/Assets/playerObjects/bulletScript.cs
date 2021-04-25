@@ -25,7 +25,7 @@ public class bulletScript : MonoBehaviourPun
         if (collision.transform.CompareTag("playerfeet"))
         {
             Debug.Log("Hit");
-            collision.gameObject.GetComponent<PlayerMovement>().hit(true);
+            collision.gameObject.GetComponent<PlayerMovement>().hit(0);
             photonView.RPC("killBullet", RpcTarget.All);
         }
        

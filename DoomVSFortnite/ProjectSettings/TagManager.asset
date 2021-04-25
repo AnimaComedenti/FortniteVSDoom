@@ -17,9 +17,9 @@ TagManager:
   - Trampoline
   - ClimbingWall
   - Character
+  - Lava
   - 
-  - 
-  - 
+  - playerExplosionTrack
   - 
   - 
   - 

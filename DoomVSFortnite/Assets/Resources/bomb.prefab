@@ -129,11 +129,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3
-  explodRadius: 4
+  explodRadius: 10
   interactionLayer:
     serializedVersion: 2
     m_Bits: 128
   particlePrefab: {fileID: 100010, guid: 1e91807cfca1fae4d82c4a22b5cea089, type: 3}
+  explosion: {fileID: 8300000, guid: af36ffba787de5143a1cfd9773800e75, type: 3}
 --- !u!82 &500159287632030015
 AudioSource:
   m_ObjectHideFlags: 0
