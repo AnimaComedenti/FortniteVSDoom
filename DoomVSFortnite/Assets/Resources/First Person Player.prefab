@@ -1049,7 +1049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHookDistance: 100
-  dragSpeeed: 500
+  dragSpeeed: 325
   lineRenderer: {fileID: 1028318532}
   cam: {fileID: 6087021505664990953}
   gunPosition: {fileID: 6087021506240786841}
@@ -1324,7 +1324,7 @@ CharacterController:
   m_Height: 2.6
   m_Radius: 0.6
   m_SlopeLimit: 45
-  m_StepOffset: 0.5
+  m_StepOffset: 0.8
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -1353,7 +1353,7 @@ MonoBehaviour:
   gravity: -17.62
   jumpHeight: 10
   multiJumps: 2
-  movementSpeed: 25
+  movementSpeed: 12
   groundCollider: {fileID: 6087021506908623014}
   groundDistance: 0.2
   groundMask:
