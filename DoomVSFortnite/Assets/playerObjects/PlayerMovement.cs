@@ -60,9 +60,6 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
     public LayerMask wallLayer;
     public float climbDetection = 1f;
 
-    public GameObject Spawn1, Spawn2, Spawn3, Spawn4, Spawn5, Spawn6;
-
-
     Text dashCD;
     Text dashCNT;
     Text jumpCNT;

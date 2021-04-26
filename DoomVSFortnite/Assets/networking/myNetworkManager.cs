@@ -7,7 +7,7 @@ public class myNetworkManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject playerPrefab;
-    public GameObject first,second,third,forth,five,six;
+    private GameObject[] spawns;
     void Start()
     {
         spawnplayer();
@@ -20,33 +20,11 @@ public class myNetworkManager : MonoBehaviour
 
     public void spawnplayer()
     {
-            float randNmr = Random.Range(0, 6);
-            Vector3 spawnPosition;
-
-            switch (randNmr)
-            {
-                case 1:
-                    spawnPosition = first.transform.position + getPosition(first.transform.localScale);
-                    break;
-                case 2:
-                    spawnPosition = second.transform.position + getPosition(second.transform.localScale);
-                    break;
-                case 3:
-                    spawnPosition = third.transform.position + getPosition(third.transform.localScale);
-                    break;
-                case 4:
-                    spawnPosition = forth.transform.position + getPosition(forth.transform.localScale);
-                    break;
-                case 5:
-                    spawnPosition = five.transform.position + getPosition(five.transform.localScale);
-                    break;
-                case 6:
-                    spawnPosition = six.transform.position + getPosition(six.transform.localScale);
-                    break;
-                default:
-                    spawnPosition = six.transform.position + getPosition(six.transform.localScale);
-                    break;
-            }
-            PhotonNetwork.Instantiate(playerPrefab.name, spawnPosition, Quaternion.identity, 0);
+        int randNmr = Random.Range(0, 6);
+        Debug.Log(randNmr);
+        Vector3 spawnPosition;
+        spawns = GameObject.FindGameObjectsWithTag("spawn");
+        spawnPosition = spawns[randNmr].transform.position + getPosition(spawns[randNmr].transform.localScale);
+        PhotonNetwork.Instantiate(playerPrefab.name, spawnPosition, Quaternion.identity, 0);
         }
     }

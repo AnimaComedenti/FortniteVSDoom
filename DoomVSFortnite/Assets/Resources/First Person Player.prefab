@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5369013136818408384}
   - component: {fileID: 4477167632147875675}
   - component: {fileID: 6114073599522514267}
-  - component: {fileID: 2913589620962413531}
   m_Layer: 0
   m_Name: healthBar
   m_TagString: playerfeet
@@ -82,19 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2913589620962413531
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3628875627123612593}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6087021505525592681
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +92,6 @@ GameObject:
   - component: {fileID: 6087021505525592680}
   - component: {fileID: 6087021505525592677}
   - component: {fileID: 6087021505525592682}
-  - component: {fileID: 6087021505525592683}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: playerfeet
@@ -178,20 +163,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &6087021505525592683
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6087021505525592681}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2.3199594
-  m_Direction: 1
-  m_Center: {x: 0.000000049670536, y: -0.055675905, z: -0.00000009934107}
 --- !u!1 &6087021505664990957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,7 +1293,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2.6
-  m_Radius: 0.6
+  m_Radius: 0.8
   m_SlopeLimit: 45
   m_StepOffset: 0.8
   m_SkinWidth: 0.08
@@ -1377,12 +1348,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   climbDetection: 1
-  Spawn1: {fileID: 4609373133824087093, guid: c0394baf76883ff4c9f7e19935a416c5, type: 3}
-  Spawn2: {fileID: 1498735214803143579, guid: 169b98ee55da87a42a6912cb3836869a, type: 3}
-  Spawn3: {fileID: 1837909978424685674, guid: 15fe70b141b01394d9ee4e7587b55d70, type: 3}
-  Spawn4: {fileID: 4025072515106527064, guid: 68ee824620ba6d14d8ca2157560bec91, type: 3}
-  Spawn5: {fileID: 4659681485158378055, guid: a6b459b99e265aa499a7af8e50066b3c, type: 3}
-  Spawn6: {fileID: 6245347324861875989, guid: 4d873ed174dd95047b1796fb2ed5f161, type: 3}
 --- !u!54 &6087021507179369736
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1450,7 +1415,6 @@ GameObject:
   - component: {fileID: 5038400287163512243}
   - component: {fileID: 2263860021138626154}
   - component: {fileID: 5129039794870665535}
-  - component: {fileID: 1008004073428283342}
   m_Layer: 0
   m_Name: glasses
   m_TagString: playerfeet
@@ -1521,19 +1485,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1008004073428283342
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6301108251656632446}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6959731965259663431
 GameObject:
   m_ObjectHideFlags: 0
